@@ -1,0 +1,24 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local environment and secrets
+.env
+.env.*
+*.local
+
+# Common dependency and build outputs
+node_modules/
+dist/
+build/
+out/
+coverage/
+
+# Python cache/runtime
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
