@@ -2,11 +2,25 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+*~
+*.swp
+*.swo
 
 # Local environment and secrets
 .env
 .env.*
 *.local
+*.secret
+*.pem
+*.key
+
+# Logs and temporary files
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+*.bak
 
 # Common dependency and build outputs
 node_modules/
@@ -14,6 +28,7 @@ dist/
 build/
 out/
 coverage/
+.cache/
 
 # Python cache/runtime
 __pycache__/
@@ -22,3 +37,12 @@ __pycache__/
 .venv/
 venv/
 
+# IDE local state
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+
+# Local agent/runtime state
+.codex/
+.project-codex-home/
